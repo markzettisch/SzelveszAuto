@@ -23,3 +23,31 @@
 |funkció| F2| Vásárlás | 1.0 | Legyen lehetőség az elérhető autók megvásárlására fiókkal rendelkező felhasználók számára.
 | funkció | F3 | Fiókok lekérdezése | 1.0 | Itt tudjuk lekérni a regisztrált fiókok adatait (Adminisztrátor, alkalmazott, vásárló).
 
+
+## Jelenlegi üzleti folyamatok modellje
+Néhány használtautó-kereskedés a mai napig a hagyományos, papír alapú módszert használja a rendelések, leltár számontartásához. Az alkalmazott a rendelési adatokat egy jegyzőkönyvbe/naptárba rögzíti.
+ Ennek számos hátránya van:
+ - Lassan és nehezen átlátható rendszer
+ - Megrendelők adatai összekeveredhetnek
+ - Hiba kockázat az adatok feljegyzésekor
+ - Az egész dokumentáció elveszhet
+ - Számla kiállítása körülményes
+ - Nem környezetbarát módszer
+
+## Igényelt üzleti folyamatok modellje
+
+ - Weboldalunk célja, hogy leegyszerűsítsük egy autókereskedés elérhető autóinak és megrendeléseinek kezelését a papír alapú munkához képest. Csökken a hibalehetőségek száma is.
+ - Célunk, hogy bármely elérhető autó megvásárolható legyen regisztrált felhasználók számára.
+ 
+## Használati esetek
+
+Az autókereskedés alkalmazottja[i] kezeli[k] a rendszert, ami azt jelenti, hogy a használati esetek többsége hozzá[juk] kapcsolódik. Az adminisztrátor[ok] emelt jogosultsággal rendelkezik/rendelkeznek, a felhasználók hozzá[juk] fordulhatnak speciális esetekben.
+
+Adatbázisban lévő adatok kezelése:
+- Adatok hozzáadása, törlése, módosítása.
+
+## Megfeleltetés, hogyan fedik le a használati esetek a követelményeket 
+
+Az alkalmazotti feladatkör ellátja a szervezési feladatokat (autók felvitele, rendelések kezelése). A weboldal megnyitásakor megnyílik a főoldalunk, ahol található a navigációs sáv, ahol a felhasználó ki tudja választani az autók menüpontot és azon belül a tetszőleges autót amit meg kíván nézni/vásárolni. Egy autóra kattintva előhozhatjuk az autó adatait, ahol megtalálhatjuk a “Megrendelem” gombot amely egy újabb formra irányít minket ahol a mezők kitöltése után meg tudjuk vásárolni a kiválasztott autót. De található még három, a vásárló számára nem látható menüpont is a főoldalon. Egy Feltöltés menüpont, ahol új autót tudunk feltölteni, egy Módosítás menüpont, ahol az autók adatait lehet módosítani, illetve egy Rendelés státuszok menüpont, ahol lehetőség van a rendelések státuszainak a módosítására, valamint egy Vásárlások menüpont, ahol egy excel táblázatként tudjuk letölteni az eddigi vásárlások adatait.
+
+>>>>>>> 4ffe125b6be5f2ea98b1f6679ed8fa839a34193e

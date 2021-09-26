@@ -10,4 +10,24 @@ A fejlesztés célja egy vizuálisan részletes, átlátható weblap készítés
 -Nehezebb nyomon követni az aktív rendeléseket és státuszaikat papír alapon.
 
 
-## asdfasfdasdf
+## Funkcionális követelmények
+Az admin lehetőségei:
+	-Alkalmazottakat tudjon felvenni, törölni és módosítani
+	-Tudjon autókat hozzáadni, törölni és módosítani
+	-Megrendeléseket tud törölni
+
+Az alkalmazott lehetőségei:
+	-Tudjon autókat hozzáadni és módosítani
+	-Tudja a megrendelések státuszát módosítani (függőben lévő/összekészítés/szállítás alatt)
+
+A vásárló lehetőségei:
+	-Tudjon regisztrálni és belépni
+-Tudjon vásárolni
+-Tudjon jelszót módosítani
+-Tudja nyomon követni a rendeléseinek státuszát
+
+## Rendszerre vonatkozó törvények, szabványok, ajánlások
+> AZ EURÓPAI PARLAMENT ÉS A TANÁCS 2016. április 27-i (EU) 2016/679 RENDELETE
+> A természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről (általános adatvédelmi rendelet)
+
+>>>>>>> 4ffe125b6be5f2ea98b1f6679ed8fa839a34193e
