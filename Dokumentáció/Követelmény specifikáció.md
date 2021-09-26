@@ -8,3 +8,6 @@ A fejlesztés célja egy vizuálisan részletes, átlátható weblap készítés
 -Az autókereskedésnek szüksége van egy átlátható, könnyen kezelhető és korszerű weboldalra, ami a jelenlegi papír alapú megoldásokat kívánja helyettesíteni.
 -Sok hibalehetőség a papír alapú kezelésben, emellett sokkal lassabb is, mint egy digitális rendszer.
 -Nehezebb nyomon követni az aktív rendeléseket és státuszaikat papír alapon.
+
+
+## asdfasfdasdf

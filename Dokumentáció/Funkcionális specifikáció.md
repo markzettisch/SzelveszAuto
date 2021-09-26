@@ -22,3 +22,4 @@
 | funkció | F1  | Listázás| 1.0 |Ki lehessen listázni a rendelkezésre álló autókat. Ehhez nem szükséges fiókkal rendelkeznünk az oldalon, de a vásárláshoz már igen.
 |funkció| F2| Vásárlás | 1.0 | Legyen lehetőség az elérhető autók megvásárlására fiókkal rendelkező felhasználók számára.
 | funkció | F3 | Fiókok lekérdezése | 1.0 | Itt tudjuk lekérni a regisztrált fiókok adatait (Adminisztrátor, alkalmazott, vásárló).
+
