@@ -50,4 +50,21 @@ Adatbázisban lévő adatok kezelése:
 
 Az alkalmazotti feladatkör ellátja a szervezési feladatokat (autók felvitele, rendelések kezelése). A weboldal megnyitásakor megnyílik a főoldalunk, ahol található a navigációs sáv, ahol a felhasználó ki tudja választani az autók menüpontot és azon belül a tetszőleges autót amit meg kíván nézni/vásárolni. Egy autóra kattintva előhozhatjuk az autó adatait, ahol megtalálhatjuk a “Megrendelem” gombot amely egy újabb formra irányít minket ahol a mezők kitöltése után meg tudjuk vásárolni a kiválasztott autót. De található még három, a vásárló számára nem látható menüpont is a főoldalon. Egy Feltöltés menüpont, ahol új autót tudunk feltölteni, egy Módosítás menüpont, ahol az autók adatait lehet módosítani, illetve egy Rendelés státuszok menüpont, ahol lehetőség van a rendelések státuszainak a módosítására, valamint egy Vásárlások menüpont, ahol egy excel táblázatként tudjuk letölteni az eddigi vásárlások adatait.
 
->>>>>>> 4ffe125b6be5f2ea98b1f6679ed8fa839a34193e
+## Képernyő tervek 
+A felhasználói felületen az adatok táblázat szerűen jelennek meg. A táblázat sorai egy-egy rendelhető autó adatait jeleníti meg. Bejelentkezést követően lehetséges a “Megrendelem” gombra kattintva elkezdeni a rendelést.
+
+Navigációs menü:
+
+Eladó autók: eladó autók megjelenítése
+
+Rendeléseim: aktív, illetve már teljesített rendelések megjelenítése
+
+## Forgatókönyv 
+ - Egy webes felületet fogunk létrehozni, amelyhez tartozni fog egy adatbázis, melyben az autókat és a felhasználók adatait fogjuk kezelni.
+ - Egy külön lapon láthatjuk majd az autókat, a hozzájuk tartozó adatokkal és árral
+ - Felhasználókat lehet majd regisztrálni. Felhasználónévre, email címre és egy jelszóra lesz szükség a regisztrációhoz. Ezt követően opcionális a további személyes adat megadása (telefonszám, lakcím, szállítási cím, stb.), azonban a rendelés során ezek megadása kötelező!
+ -Bejelentkezés után, a “Megrendelem” gombra rákattintva lehet majd megvásárolni a kívánt autót	
+## Funkció-követelmény megfeleltetés
+
+## Fogalomszótár
+
