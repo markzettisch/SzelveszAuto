@@ -30,4 +30,4 @@ A vásárló lehetőségei:
 > AZ EURÓPAI PARLAMENT ÉS A TANÁCS 2016. április 27-i (EU) 2016/679 RENDELETE
 > A természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK irányelv hatályon kívül helyezéséről (általános adatvédelmi rendelet)
 
->>>>>>> 4ffe125b6be5f2ea98b1f6679ed8fa839a34193e
+## hkjhjkhj
